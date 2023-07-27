@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+body{
+    width: 100%;
+    height: 739px;
+    background-image: url(./Images/contact-back.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 100%;
+    background-color: #2a375e;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 120px;
+}
+
+nav h1{
+    font-size: 32px;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    float: left;
+}
+
+nav ul{
+    float: right;
+    position: relative;
+ }
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 17px;
+    padding: 0px 16px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #46527a;
+
+}
+
+nav ul li ul{
+    position: absolute;
+    display: none;
+    background-color: #2a375e;
+    border-radius: 0px 0px 5px 5px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li {
+    line-height: 1;
+    width: 190px;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+nav ul li ul li a{
+    padding: 10px 16px;
+}
+nav ul li ul li a:hover{
+    background-color: #46527a;
+}
+
+#h2div{
+    width: 800px;
+    text-align: center;
+    position: relative;
+    top: 35px;
+    left: 380px;
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+#contactdiv{
+    text-align: center;
+    position: relative;
+    top: 360px;
+    color: rgb(10, 10, 10);
+    font-size: 23px;
+    
+}
+
+
+
+img{
+    height: 25px;
+    width: 25px;
+    display: block;
+    position: relative;
+    left: 630px;
+    top: 310px;
+    }
+
+a{
+    color: rgb(9, 9, 9);
+    font-size: 20px;
+}

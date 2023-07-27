@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(./Images/main-background.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 100%;
+    background-color: #2a375e;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 120px;
+}
+
+nav h1{
+    font-size: 32px;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    float: left;
+}
+
+nav ul{
+    float: right;
+    position: relative;
+ }
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 17px;
+    padding: 0px 16px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #46527a;
+
+}
+
+nav ul li ul{
+    position: absolute;
+    display: none;
+    background-color: #2a375e;
+    border-radius: 0px 0px 5px 5px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li {
+    line-height: 1;
+    width: 190px;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+nav ul li ul li a{
+    padding: 10px 16px;
+}
+nav ul li ul li a:hover{
+    background-color: #46527a;
+}
+
+#h2div{
+        width: 800px;
+        text-align: center;
+        position: relative;
+        top: 50px;
+        left: 350px;
+        font-family: 'Bacasime Antique', serif;
+        font-family: 'Caveat', cursive;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 30px;
+        color: #fff;
+}
+
+#vietnamdiv{
+    height: 360px;
+    width: 360px;
+    position:relative;
+    top: 180px;
+    left: 35px;
+    display: inline-block;
+    
+}
+
+#hankdiv{
+    height: 360px;
+    width: 360px;
+    position:relative;
+    top: 163px;
+    left: 35px;
+    display: inline-block;
+}
+
+#laosdiv{
+    height: 360px;
+    width: 360px;
+    position:relative;
+    top: 198px;
+    left: 35px;
+    display: inline-block;
+}
+
+#cambodiv{
+    height: 360px;
+    width: 360px;
+    position:relative;
+    top: 200px;
+    left: 35px;
+    display: inline-block;
+}
+
+p{
+    color: #fff;
+}
+
+
+img{
+    height: 230px;
+    width: 230px;
+    float: left;
+}
+
+a{
+    color: aliceblue;
+}
+
+
+ 
+
+
+
+
+ 

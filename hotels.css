@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+body{
+    width: 100%;
+    height: 600px;
+    background-image: url(./Images/Hotels-back.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 100%;
+    background-color: #2a375e;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 120px;
+}
+
+nav h1{
+    font-size: 32px;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    float: left;
+}
+
+nav ul{
+    float: right;
+    position: relative;
+ }
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 17px;
+    padding: 0px 16px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #46527a;
+
+}
+
+nav ul li ul{
+    position: absolute;
+    display: none;
+    background-color: #2a375e;
+    border-radius: 0px 0px 5px 5px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li {
+    line-height: 1;
+    width: 190px;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+nav ul li ul li a{
+    padding: 10px 16px;
+}
+nav ul li ul li a:hover{
+    background-color: #46527a;
+}
+
+#firsth2{
+    width: 900px;
+    left: 330px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: white;
+    
+}
+
+#divdetails{
+position: relative;
+height: 355px;
+width: 440px;
+top: 150px;
+left: 150px;
+text-align: center;
+font-family: 'Bacasime Antique', serif;
+font-family: 'Caveat', cursive;
+font-family: 'Quicksand', sans-serif;
+font-size: 25px;
+color:#fff;
+
+}
+
+a{
+    color: rgb(244, 244, 244);
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#vietnamdiv{
+    height: 238px;
+    width: 200px;
+    position: relative;
+    bottom: 122px;
+    left: 680px;
+    font-family: 'Bacasime Antique', serif;
+font-family: 'Caveat', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    color: #000000;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+#laosdiv{
+    height: 200px;
+    width: 230px;
+    position: relative;
+    bottom: 359px;
+    left: 920px;
+    font-family: 'Bacasime Antique', serif;
+font-family: 'Caveat', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    color: #000000;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+#cambodiadiv{
+    height: 205px;
+    width: 220px;
+    position: relative;
+    bottom: 558px;
+    left: 1200px;
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    color: #000000;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+.divhead{
+    font-size: 35px;
+}

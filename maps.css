@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+body{
+    width: 100%;
+    height: 600px;
+    background-image: url(./Images/maps-back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 100%;
+    background-color: #2a375e;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 120px;
+}
+
+nav h1{
+    font-size: 32px;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    float: left;
+}
+
+nav ul{
+    float: right;
+    position: relative;
+ }
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 17px;
+    padding: 0px 16px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #46527a;
+
+}
+
+nav ul li ul{
+    position: absolute;
+    display: none;
+    background-color: #2a375e;
+    border-radius: 0px 0px 5px 5px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li {
+    line-height: 1;
+    width: 190px;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+nav ul li ul li a{
+    padding: 10px 16px;
+}
+nav ul li ul li a:hover{
+    background-color: #46527a;
+}
+
+#firsth2{
+    width: 600px;
+    text-align: center;
+    position: relative;
+    top:50px;
+    left: 450px;
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    
+}
+
+#vietdiv{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 240px;
+    left: 40px;
+    text-align: center;  
+    color: rgb(252, 247, 247);
+}
+
+#danksodiv{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 240px;
+    left: 120px;
+    text-align: center;
+    color: rgb(248, 244, 244);
+}
+
+#laosdiv{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 240px;
+    left: 190px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+#Cambdiv{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 240px;
+    left: 260px;
+    text-align: center;
+    color: rgb(248, 246, 246);
+}
+
+div img{
+    height: 280px;
+    width: 300px;
+}
+
+p{
+    font-size:25px ;
+}
+
